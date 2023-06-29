@@ -1,14 +1,14 @@
 import Header from "@/component/Header/Header";
-import styles from "./page.module.scss";
 import Footer from "@/component/Footer/Footer";
+import Hero from "@/component/Hero/Hero";
+import styles from "./page.module.scss";
+
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className={styles.main}>
-        <h1>Started big project</h1>
-      </main>
+      <Header/>
+      <Hero/>
       <Footer/>
     </>
   );
