@@ -5,9 +5,9 @@ import Nav from "../Navigation/Nav";
 
 export default function Header() {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <Logo/>
       <Nav/>
-    </div>
+    </header>
   );
 }

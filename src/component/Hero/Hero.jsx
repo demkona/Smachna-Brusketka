@@ -1,9 +1,18 @@
+import Image from "next/image";
 import React from "react";
+import hero from './hero.png'
 
 export default function Hero() {
   return (
     <div>
-      <h1>Started big project</h1>
+      <Image src={hero} width={360} height={360} alt="Hero"></Image>
+      <p>Антипаста</p>
+      <Image src={hero} width={360} height={360} alt="Hero"></Image>
+      <p>Антипаста</p>
+      <Image src={hero} width={360} height={360} alt="Hero"></Image>
+      <p>Антипаста</p>
+      <Image src={hero} width={360} height={360} alt="Hero"></Image>
+      <p>Антипаста</p>
     </div>
   );
 }

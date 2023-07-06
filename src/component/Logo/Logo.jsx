@@ -10,7 +10,7 @@ export default function Logo() {
       <Link className={styles.img} href="/">
         <Image src={logo} width={70} height={70} alt="logo"/>
       </Link>
-      <p className={styles.text}>Смачна Брускетка</p>
+      <p className={styles.text}>Smachna<span className={styles.textSpan}>Brusketka</span></p>
     </div>
   );
 }
