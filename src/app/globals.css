@@ -17,10 +17,15 @@ body {
 
 h1 {
   margin: 0;
+  text-align: center;
 }
 
 p{
 margin: 0;
+}
+
+ul{
+  list-style: none; 
 }
 
 .container {
@@ -31,7 +36,7 @@ margin: 0;
 }
 
 main {
-  min-height: calc(100vh - 85px - 22px);
+  min-height: calc(100vh - 338px);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }

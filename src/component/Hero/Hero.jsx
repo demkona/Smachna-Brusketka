@@ -1,19 +1,65 @@
 import Image from "next/image";
 import React from "react";
-import hero from './hero.png'
-import styles from "./hero.module.scss"
+import hero from "./hero.png";
+import styles from "./hero.module.scss";
 
 export default function Hero() {
   return (
-    <div>
-      <Image src={hero} width={360} height={360} alt="Hero"></Image>
-      <p className={styles.title}>Антипаста</p>
-      <Image src={hero} width={360} height={360} alt="Hero"></Image>
-      <p className={styles.title}>Антипаста</p>
-      <Image src={hero} width={360} height={360} alt="Hero"></Image>
-      <p className={styles.title}>Антипаста</p>
-      <Image src={hero} width={360} height={360} alt="Hero"></Image>
-      <p className={styles.title}>Антипаста</p>
-    </div>
+    <ul className={styles.list}>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+      <li className={styles.item}>
+        {" "}
+        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <h1 className={styles.title}>Антипаста</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
+          accumsan mauris. Maecenas sed justo.
+        </p>
+      </li>
+    </ul>
   );
 }

@@ -1,7 +1,16 @@
-.title{
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 25PX;
-    font-weight: 700;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item{
+  width: 360px;
 }
 
+
+.title {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
