@@ -8,7 +8,7 @@ export default function Hero() {
     <ul className={styles.list}>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300}alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
@@ -17,7 +17,7 @@ export default function Hero() {
       </li>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300} alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
@@ -26,7 +26,7 @@ export default function Hero() {
       </li>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300} alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
@@ -35,7 +35,7 @@ export default function Hero() {
       </li>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300} alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
@@ -44,7 +44,7 @@ export default function Hero() {
       </li>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300} alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
@@ -53,7 +53,7 @@ export default function Hero() {
       </li>
       <li className={styles.item}>
         {" "}
-        <Image src={hero} width={360} height={360} alt="Hero"></Image>
+        <Image src={hero} width={300} height={300} alt="Hero"></Image>
         <h1 className={styles.title}>Антипаста</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
