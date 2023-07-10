@@ -8,7 +8,7 @@ import instagram from "./instagram.png";
 export default function Footer() {
   return (
     <footer className={styles.container}>
-      <Link href={"./"} className={styles.text}>
+      <Link href={"/"} className={styles.text}>
         Smachna<span className={styles.textSpan}>Brusketka</span>
       </Link>
       <Link

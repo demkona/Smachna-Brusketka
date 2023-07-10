@@ -1,8 +1,6 @@
+import Header from "@/component/Header/Header";
 import "./globals.css";
-import { Inter } from "next/font/google";
-import Script from "next/script";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/component/Footer/Footer";
 
 export const metadata = {
   title: "Smachna Brusketka",
@@ -11,8 +9,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ua">
-      <Script src="https://telegram.org/js/telegram-web-app.js" strategy="lazyOnload" />
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Header />
+        <main className="container">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
