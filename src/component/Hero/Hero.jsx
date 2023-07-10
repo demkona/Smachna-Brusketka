@@ -1,100 +1,21 @@
 import Image from "next/image";
-import React from "react";
-import hero from "./hero.png";
 import styles from "./hero.module.scss";
-import Link from "next/link";
 
 export default function Hero() {
   return (
-    <ul className={styles.list}>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-      <li className={styles.item}>
-      <Link href={'/'} target="blank">
-      <Image src={hero} width={200} height={200}alt="Hero"></Image>
-        <h1 className={styles.title}>Антипаста</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in
-          accumsan mauris. Maecenas sed justo.
-        </p>
-      </Link>
-        {" "}
-      </li>
-    </ul>
+    <>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          backgroundImage: `url("https://upload.wikimedia.org/wikipedia/commons/e/e0/Grass_at_a_lawn_with_morning_dew_02.jpg")`,
+          height: "100vh",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className={styles.title}>Ви святкуєте - ми готуємо</h1>
+      </div>
+    </>
   );
 }

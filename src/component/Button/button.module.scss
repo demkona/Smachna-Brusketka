@@ -1,13 +1,13 @@
 .btn {
-border-radius: 10px;
-    padding: 10px 15px;
-    cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        background: #2196f3;
+  &:hover,
+  &:focus {
+    background: rgba(186, 232, 203, 0.5);
     color: #ffffff;
-    }
+  }
 }
