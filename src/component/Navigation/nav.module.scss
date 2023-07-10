@@ -3,3 +3,14 @@
     text-decoration: none;
     color: #212121;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d0f4d0;
+
+    @media screen and (min-width: 768px) {
+        background-color: #ffffff;
+    }
+}
