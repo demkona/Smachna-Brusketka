@@ -1,4 +1,4 @@
-export default async function Post({ id }) {
+export default async function Post({params:{ id }}) {
   
     return (
       <>
