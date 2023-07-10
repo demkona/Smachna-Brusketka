@@ -6,11 +6,13 @@ import Link from "next/link";
 
 export default function Logo() {
   return (
-    <div className={styles.container}>
+    <>
       <Link className={styles.img} href="/">
-        <Image src={logo} width={70} height={70} alt="logo"/>
+        <Image src={logo} width={70} height={70} alt="logo" />
+        <p className={styles.text}>
+          Smachna<span className={styles.textSpan}>Brusketka</span>
+        </p>
       </Link>
-      <p className={styles.text}>Smachna<span className={styles.textSpan}>Brusketka</span></p>
-    </div>
+    </>
   );
 }

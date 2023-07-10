@@ -7,9 +7,7 @@ import Nav from "../Navigation/Nav";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Link href={"/"}>
         <Logo />
-      </Link>
       <Nav />
     </header>
   );
