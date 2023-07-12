@@ -8,7 +8,7 @@ export default function Call() {
   return (
     <div className={styles.container}>
             <Link className={styles.link} href={"tel:+380967843584"}>
-            <Image src={phone} width={16} height={16}></Image></Link>
+            <Image src={phone} width={15} height={15} alt='phone'></Image></Link>
     </div>
   )
 }

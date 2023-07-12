@@ -1,14 +1,27 @@
-.link{
-    cursor: pointer;
-    padding: 10px 15px;
-    border: solid 2px black;
-    border-radius: 50px;
-    color: #ffffff;
-    background-color: rgb(56, 159, 91);
+.link {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: solid 2px black;
+  border-radius: 50px;
+  color: #ffffff;
+  background: rgb(56, 159, 91);
+  transition-delay: 250ms;
+  transition-duration: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background;
+
+  &:hover,
+  &:focus {
+    background: rgb(255, 0, 0);
+  }
 }
 
-.container{
-    position: fixed;
-    top: calc(100vh - 80px);
-    right: 40px;
+.container {
+  position: fixed;
+  top: calc(100vh - 100px);
+  right: 50px;
+
+  @media screen and (min-width: 768px) {
+    top: calc(100vh - 150px);
+    right: 80px;
+  }
 }

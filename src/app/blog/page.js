@@ -1,5 +1,7 @@
 export default function Blog() {
   return (
-    <h1>Наш Блог</h1>
-  )
+    <>
+      <h1>Нашa Галерея</h1>
+    </>
+  );
 }
