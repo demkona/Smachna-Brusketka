@@ -1,0 +1,14 @@
+.link{
+    cursor: pointer;
+    padding: 10px 15px;
+    border: solid 2px black;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: rgb(56, 159, 91);
+}
+
+.container{
+    position: fixed;
+    top: calc(100vh - 80px);
+    right: 40px;
+}
