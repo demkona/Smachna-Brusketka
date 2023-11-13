@@ -1,7 +1,7 @@
+import ProductItem from "@/component/ProductItem/ProductItem";
+
 export default function Blog() {
   return (
-    <>
-      <h1>Нашa Галерея</h1>
-    </>
+<ProductItem/>
   );
 }
